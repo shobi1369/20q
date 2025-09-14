@@ -1,0 +1,25 @@
+
+{
+  "name": "20q-destroyer",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "supabase:serve": "supabase functions serve --env-file ./supabase/.env.local --no-verify-jwt"
+  },
+  "dependencies": {
+    "next": "14.2.12",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@supabase/ssr": "^0.5.1",
+    "@supabase/supabase-js": "^2.45.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0"
+  }
+}
